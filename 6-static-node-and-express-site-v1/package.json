@@ -1,0 +1,14 @@
+{
+  "name": "6-static-node-and-express-site-v1",
+  "version": "1.0.0",
+  "description": "Unit 6 treehouse project",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "peter may and treehouse",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
