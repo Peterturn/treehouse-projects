@@ -1,0 +1,68 @@
+{
+    "projects": [{
+            "id": 0,
+            "project_name": "Random Quotes Generator",
+            "description": "A website application that randomly picks a quote and display's it on a timer or each time a button is click",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "add-live_link",
+            "github_link": "add-github_link",
+            "image_urls": ["add-image_urls_550x550",
+                "add-image_urls_1200x550a",
+                "add-image_urls_1200x550b",
+                "add-image_urls_1200x550c"
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "add-name",
+            "description": "add-description",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "add-live_link",
+            "github_link": "add-github_link",
+            "image_urls": ["add-image_urls_550x550",
+                "add-image_urls_1200x550a",
+                "add-image_urls_1200x550b",
+                "add-image_urls_1200x550c"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "add-name",
+            "description": "add-description",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "add-live_link",
+            "github_link": "add-github_link",
+            "image_urls": ["add-image_urls_550x550",
+                "add-image_urls_1200x550a",
+                "add-image_urls_1200x550b",
+                "add-image_urls_1200x550c"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "add-name",
+            "description": "add-description",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "add-live_link",
+            "github_link": "add-github_link",
+            "image_urls": ["add-image_urls_550x550",
+                "add-image_urls_1200x550a",
+                "add-image_urls_1200x550b",
+                "add-image_urls_1200x550c"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "add-name",
+            "description": "add-description",
+            "technologies": ["Javascript", "HTML", "CSS"],
+            "live_link": "add-live_link",
+            "github_link": "add-github_link",
+            "image_urls": ["add-image_urls_550x550",
+                "add-image_urls_1200x550a",
+                "add-image_urls_1200x550b",
+                "add-image_urls_1200x550c"
+            ]
+        }
+    ]
+}
