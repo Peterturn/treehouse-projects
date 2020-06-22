@@ -6,10 +6,10 @@
             "technologies": ["Javascript", "HTML", "CSS"],
             "live_link": "https://peterturn.github.io/peters-treehouse-projects/1-Random-Quote-Gen",
             "github_link": "https://github.com/Peterturn/treehouse-projects/tree/master/1-Random-Quote-Gen",
-            "image_urls": ["add-image_urls_550x550",
-                "add-image_urls_1200x550a",
-                "add-image_urls_1200x550b",
-                "add-image_urls_1200x550c"
+            "image_urls": ["/static/images/project-1_550_550.png",
+                "/static/images/project-1_1200_550a.png",
+                "/static/images/project-1_1200_550b.png",
+                "/static/images/project-1_1200_550c.png"
             ]
         },
         {
@@ -19,10 +19,10 @@
             "technologies": ["Javascript", "HTML", "CSS"] ,
             "live_link": "https://peterturn.github.io/peters-treehouse-projects/2-List-Pagination-Filtering/list_pagination_and_filtering-v1" ,
             "github_link": "https://github.com/Peterturn/treehouse-projects/tree/master/2-List-Pagination-Filtering" ,
-            "image_urls": ["add-image_urls_550x550" ,
-                "add-image_urls_1200x550a" ,
-                "add-image_urls_1200x550b" ,
-                "add-image_urls_1200x550c"
+            "image_urls": ["/static/images/project-2_550_550.png",
+                "/static/images/project-2_1200_550a.png",
+                "/static/images/project-2_1200_550b.png",
+                "/static/images/project-2_1200_550c.png"
             ]
         },
         {
@@ -32,10 +32,10 @@
             "technologies": ["Javascript", "HTML", "CSS"],
             "live_link": "https://peterturn.github.io/peters-treehouse-projects/3-interactive-form-v2",
             "github_link": "https://github.com/Peterturn/treehouse-projects/tree/master/3-interactive-form-v2",
-            "image_urls": ["add-image_urls_550x550",
-                "add-image_urls_1200x550a",
-                "add-image_urls_1200x550b",
-                "add-image_urls_1200x550c"
+            "image_urls": ["/static/images/project-3_550_550.png",
+                "/static/images/project-3_1200_550a.png",
+                "/static/images/project-3_1200_550b.png",
+                "/static/images/project-3_1200_550c.png"
             ]
         },
         {
@@ -45,10 +45,10 @@
             "technologies": ["Javascript", "HTML", "CSS", "Static Images"],
             "live_link": "https://peterturn.github.io/peters-treehouse-projects/4-oop_game-v2",
             "github_link": "https://github.com/Peterturn/treehouse-projects/tree/master/4-oop_game-v2",
-            "image_urls": ["add-image_urls_550x550",
-                "add-image_urls_1200x550a",
-                "add-image_urls_1200x550b",
-                "add-image_urls_1200x550c"
+            "image_urls": ["/static/images/project-4_550_550.png",
+                "/static/images/project-4_1200_550a.png",
+                "/static/images/project-4_1200_550b.png",
+                "/static/images/project-4_1200_550c.png"
             ]
         },
         {
@@ -58,10 +58,10 @@
             "technologies": ["Javascript", "HTML", "CSS"],
             "live_link": "https://peterturn.github.io/peters-treehouse-projects/5-public-api-request-v1",
             "github_link": "https://github.com/Peterturn/treehouse-projects/tree/master/5-public-api-request-v1",
-            "image_urls": ["add-image_urls_550x550",
-                "add-image_urls_1200x550a",
-                "add-image_urls_1200x550b",
-                "add-image_urls_1200x550c"
+            "image_urls": ["/static/images/project-5_550_550.png",
+                "/static/images/project-5_1200_550a.png",
+                "/static/images/project-5_1200_550b.png",
+                "/static/images/project-5_1200_550c.png"
             ]
         }
     ]
