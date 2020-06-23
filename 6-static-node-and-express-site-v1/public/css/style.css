@@ -1,6 +1,7 @@
 
 h1,h2,h3,h4,h5,p{
-  font-family: 'Merriweather', serif;
+  /*Changed the font-family to 'Courier New' */
+  font-family: 'Courier New', serif;
 }
 
   h5{
@@ -56,16 +57,17 @@ a:hover{
   line-height: 0;
 }
 
+/* Changed background color from grey/black to tomatoe*/ 
 .portfolio-me{
   padding: 20px;
-  background: #121213;
+  background: #d87474;
   color: #fff;
   box-shadow: none !important;
 }
-
+/* Changed color color from light-grey to dark-grey*/ 
   .portfolio-me p{
     font-size: 14px;
-    color: #999;
+    color: rgb(48, 43, 43);
   }
 
   .portfolio-me a{
