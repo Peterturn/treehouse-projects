@@ -15,7 +15,7 @@
         {
             "id": 1,
             "project_name": "List-Pagination-Filtering" ,
-            "description": " A List Pagination Filtering of a selection of students. Each page has a max of 10 students listed. User can navigate through the list with Pagination buttons" ,
+            "description": " A List Pagination Filtering of a selection of students. Each page has a max of 10 students listed. Users can navigate through the list with 'Pagination buttons'" ,
             "technologies": ["Javascript", "HTML", "CSS"] ,
             "live_link": "https://peterturn.github.io/peters-treehouse-projects/2-List-Pagination-Filtering/list_pagination_and_filtering-v1" ,
             "github_link": "https://github.com/Peterturn/treehouse-projects/tree/master/2-List-Pagination-Filtering" ,
@@ -28,7 +28,7 @@
         {
             "id": 2,
             "project_name": "Interactive Sign-up form",
-            "description": "User form with user prompts to guid a user to fill out the form. If incorrectly filled out form will give prompts where information was incorrectly filled out",
+            "description": "User form with user prompts to guide a user through the form process. If incorrectly filled out the form will give prompts where information was incorrectly filled out",
             "technologies": ["Javascript", "HTML", "CSS"],
             "live_link": "https://peterturn.github.io/peters-treehouse-projects/3-interactive-form-v2",
             "github_link": "https://github.com/Peterturn/treehouse-projects/tree/master/3-interactive-form-v2",

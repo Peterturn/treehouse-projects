@@ -6,7 +6,7 @@ app.use( '/static', express.static('public') );
 
 /* GET home page. */
 app.get('/', function(req, res, next) {
-    res.render( 'index', { projects } );
+    res.render( 'index', { projects });
 });
 
 /* GET about page. */
@@ -14,7 +14,8 @@ app.get('/about', function(req, res, next) {
     res.render( 'about', { projects } );
 });
 
-/* GET recipe page. */
+/* GET projects page. */
+/** Code snippet from Unit 6 treehouse project*/
 app.get('/projects/:id', function(req, res, next) {
     const projectId = req.params.id;
     const project = projects.find( ({ id }) => id === +projectId );
@@ -26,17 +27,18 @@ app.get('/projects/:id', function(req, res, next) {
     }
   });
 
-  // catch 404 and forward to error handler
-app.use(function(req, res, next) {
-    next(createError(404));
+  app.use((req, res, next) => {
+    const err = new Error('Not Found');
+    err.status = 404;
+    next(err);
   });
   
-  // error handler
-  app.use(function(err, req, res, next) {
-    res.locals.message = err.message;
-    res.locals.error = req.app.get('env') === 'development' ? err : {};
-  
-    res.status(err.status || 500);
+  app.use((err, req, res, next) => {
+    res.locals.error = err;
+    res.status(err.status);
     res.render('error');
   });
-app.listen(3000);
+  
+app.listen(3000, () => {
+    console.log("your being served on port 3000");    
+});
