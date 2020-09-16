@@ -1,7 +1,14 @@
 import React from 'react';
+import Gif from './Gif';
 
-function Gallery(){
-    return(
+const Gallery = props => {
+  
+  const jsonData = props.data;
+  let gifs = jsonData.map(gif => 
+   <Gif url=/>
+  )
+  
+  return(
         <div className="photo-container">
         <h2>Results</h2>
         <ul>
@@ -16,6 +23,9 @@ function Gallery(){
           </li>
           <li>
             <img src="https://farm5.staticflickr.com/4425/36337012384_ba3365621e.jpg" alt="" />
+          </li>
+          <li>
+            <Gif />
           </li>
           {/* <!-- Not Found --> */}
           <li className="not-found">
