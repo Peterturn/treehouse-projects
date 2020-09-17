@@ -1,28 +1,19 @@
 import React from 'react';
-import Gif from './Gif';
+import Photo from './Photo';
 
-
-
-const Gallery = props => {
-  const urlBuild = `https://farm${props.farm}.staticflickr.com/${props.server}/${props.id}_${props.secret}.jpg`;
-
+function Gallery (props){
   const jsonData = props.data;
-  let gifs; 
-  if(jsonData.length){
-    gifs = jsonData.map(gif => 
-      <Gif url={urlBuild}/>
+  let photos = jsonData.map(gif => 
+      <Photo url={`https://farm${props.farm}.staticflickr.com/${props.server}/${props.id}_${props.secret}.jpg`}/>
      )
-  } else {
-    
-  }
   
   
   return(
-    
+
         <div className="photo-container">
         <h2>Results</h2>
         <ul>
-          {gifs}
+          {photos}
         </ul>
       </div>
     );
