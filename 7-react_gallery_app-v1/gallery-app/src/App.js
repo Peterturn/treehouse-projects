@@ -17,7 +17,7 @@ import { apiKey } from './Key';
   } 
 
   componentDidMount() {
-  axios.get(`https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=cat&per_page=10&page=1&format=json&nojsoncallback=1`)
+  axios.get(`https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=computer&per_page=24&page=1&format=json&nojsoncallback=1`)
   .then(response => {
 
     this.setState({
