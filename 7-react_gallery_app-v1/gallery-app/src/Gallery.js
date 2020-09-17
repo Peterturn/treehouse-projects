@@ -1,11 +1,21 @@
 import React from 'react';
 import Photo from './Photo';
+import NoPhotos from './NoPhotos';
 
 function Gallery (props){
-  const jsonData = props.data;
-  let photos = jsonData.map(gif => 
-      <Photo url={`https://farm${props.farm}.staticflickr.com/${props.server}/${props.id}_${props.secret}.jpg`}/>
-     )
+  const results = props.value;
+  let photos;
+
+  if (results.length>0){
+    photos = results.map(gif => 
+      <Photo 
+      farm={results.farm}
+      server={results.server}
+      id={results.id}
+      secret={results.secret}
+      />
+     )}else{
+       photos= <NoPhotos/>}
   
   
   return(
