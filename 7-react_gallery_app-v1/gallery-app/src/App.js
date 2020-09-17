@@ -17,7 +17,11 @@ import { apiKey } from './Key';
   } 
 
   componentDidMount() {
-  axios.get(`https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=computer&per_page=24&page=1&format=json&nojsoncallback=1`)
+    this.preformSearch()
+    }
+
+  preformSearch(query='kitty'){
+    axios.get(`https://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=${query}&per_page=24&page=1&format=json&nojsoncallback=1`)
   .then(response => {
 
     this.setState({
@@ -28,13 +32,13 @@ import { apiKey } from './Key';
      .catch(error => {
      console.log('Error fetching and parsing data', error);
      });
-    }
+  }
   
   render (){
     console.log(this.state.photos);
     return (
       <div className="container">
-        <SearchForm />
+        <SearchForm onSearch={this.preformSearch}/>
         <Nav />
         <Gallery value={this.state.photos}/>
 
