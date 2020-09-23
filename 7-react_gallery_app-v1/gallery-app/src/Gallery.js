@@ -1,6 +1,6 @@
 import React from 'react';
 import Photo from './Photo';
-//import NoPhotos from './NoPhotos';
+import NoPhotos from './NoPhotos';
 
 function Gallery (props){
   const results = props.value;
@@ -16,8 +16,8 @@ function Gallery (props){
       key={pic.id}
       />
      )}
-    //  else{
-    //    photos= <NoPhotos />}
+     else{
+       photos= <NoPhotos />}
   
   
   return(
