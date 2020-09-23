@@ -101,11 +101,11 @@ import Gallery from './Gallery';
           <SearchForm onSearch={this.performSearch}/>
           <Nav />
           <Switch>
-            <Route exact path="/" component={() => <Gallery value={this.state.photos}/>} />
-            <Route path="/search/:tags" component={() => <Gallery value={this.state.photos}/>} />
-            <Route  path="/cats" component={() => <Gallery value={this.state.kitty} />} />
-            <Route  path="/dogs" component={() => <Gallery value={this.state.dog} />} />
-            <Route  path="/computers" component={() => <Gallery value={this.state.computer} />} />
+            <Route exact path="/" render={() => <Gallery value={this.state.photos}/>} />
+            <Route path="/search/:tags" render={() => <Gallery value={this.state.photos}/>} />
+            <Route  path="/cats" render={() => <Gallery value={this.state.kitty} />} />
+            <Route  path="/dogs" render={() => <Gallery value={this.state.dog} />} />
+            <Route  path="/computers" render={() => <Gallery value={this.state.computer} />} />
 
           </Switch>
         </div>
